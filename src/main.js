@@ -1,4 +1,5 @@
-// function fire(bool){
+// Var Let Const
+//function fire(bool){
 //     if (bool) {
 //         let foo = 'bar';
 //         console.log(foo);
@@ -18,23 +19,31 @@
 
 
 //Arrows
+// class TaskCollection {
+//     constructor(tasks=[]){
+//         this.tasks = tasks;
+//     }
+//     prepare(){
+//         // this.tasks.forEach((task, i) => task.toGulp(i) )
+//         this.tasks.forEach((task, i) => console.log(this) )
+//     }
+// }
+// class Task{
+//     toGulp(n){
+//         console.log('prepare to gulp' + n);
+//     }
+// };
+//
+// new TaskCollection([
+//     new Task, new Task, new Task
+// ]).prepare()
 
-class TaskCollection {
-    constructor(tasks=[]){
-        this.tasks = tasks;
-    }
-    log(){
-        this.tasks.forEach(function(task){
-            console.log(task);
-        })
-    }
-}
-class Task{
-    constructor(){
-        
-    }
-};
-
-new TaskCollection([
-    new Task, new Task, new Task
-])
+//Default
+// function defaultDiscount(){
+//     return .20;
+// }
+// function applyDiscount( cost, discount = defaultDiscount() ){
+//     return cost - ( cost * discount );
+//
+// }
+// alert( applyDiscount(100) )

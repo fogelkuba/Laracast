@@ -47,3 +47,18 @@
 //
 // }
 // alert( applyDiscount(100) )
+
+//spread reast operator
+// function sum(...numbers){
+//     return numbers.reduce(function(prev, curr){
+//         return prev + curr
+//     });
+// }
+// console.log(sum(1,2,3,4,5))
+
+function sum(x, y){
+    return x + y;
+}
+let nums = [1,2]
+
+console.log(...nums)
